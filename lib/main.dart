@@ -3,8 +3,6 @@ import 'package:e_commerce/screens/CategoryScreen.dart';
 import 'package:e_commerce/screens/Login_SignUp/Login_Screen.dart';
 import 'package:e_commerce/screens/OnBoardingScreen/Onboarding_Screen.dart';
 import 'package:e_commerce/screens/splash_screen.dart';
-import 'package:e_commerce/screens/toote.dart';
-import 'package:e_commerce/screens/try.dart';
 import 'package:flutter/material.dart';
 
 
@@ -23,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home:  name()
+      home:  Splash_Screen()
     );
   }
 }
